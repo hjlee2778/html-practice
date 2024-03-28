@@ -1,0 +1,34 @@
+/*td, th {
+    vertical-align: middle;
+    border: 1px solid black;
+}*/
+
+table {
+    border-collapse: collapse;
+    border: 1px;
+    padding: 15px;
+    color: grey;
+}
+
+.notice-table{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+}
+
+.notice-table td, th {
+    padding: 15px;
+    border: 1px solid grey;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.notice-table th{
+    border-top: 3px solid black;
+    background-color: #E2E2E2;
+}
+
+.cell-long{
+    width: 500px;
+}
