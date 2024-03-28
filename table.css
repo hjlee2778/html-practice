@@ -32,3 +32,27 @@ table {
 .cell-long{
     width: 500px;
 }
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+   float: left; 
+}
+
+li a {
+    display: block;
+    background-color: #E2E2E2;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 8px;
+    border: 1px solid grey;
+
+}
