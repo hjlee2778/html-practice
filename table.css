@@ -3,6 +3,11 @@
     border: 1px solid black;
 }*/
 
+.pagenav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 table {
     border-collapse: collapse;
     border: 1px;
@@ -39,6 +44,9 @@ ul {
     margin: 5px;
     padding: 10px;
     overflow: hidden;
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li {
@@ -54,5 +62,22 @@ li a {
     text-align: center;
     margin: 8px;
     border: 1px solid grey;
+    cursor: pointer;
 
 }
+
+li a.current{
+    background-color: black;
+    color: white;
+}
+
+li a:hover:not(.current) {
+    background-color: black;
+    color: white;
+}
+
+li a:focus {
+    background-color: black;
+    color: white;
+}
+
